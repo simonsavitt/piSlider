@@ -20,5 +20,4 @@ function draw() {
   fill(0);
   text("decimal places", piSlider.width + 30 + x, y + 15);
   text(d, x + 12 + (d*offset) , piSlider.height + y + 20);
-  console.log(piSlider.width)
 }
